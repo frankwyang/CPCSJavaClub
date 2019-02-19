@@ -15,6 +15,8 @@ public class HelloWorld{
         slave4.method4();
 
         SlaveHello.method3();
+
+        slave4.method3();
     }
 
     public static void method1()
