@@ -7,6 +7,14 @@ public class HelloWorld{
             method1();
         }        
         method2();
+        SlaveHello.method3();
+
+        SlaveHello slave3 = new SlaveHello();
+        slave3.method3();
+        SlaveHello slave4 = new SlaveHello();
+        slave4.method4();
+
+        SlaveHello.method3();
     }
 
     public static void method1()
