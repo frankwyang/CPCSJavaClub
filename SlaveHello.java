@@ -18,4 +18,9 @@ public class SlaveHello
         System.out.println("SlaveHello method4 'hello'");
         System.out.println("numObj = " + numObj);
     }
+
+    private void method5()
+    {
+        // no class outside of SlaveHello can see this method.
+    }
 }

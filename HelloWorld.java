@@ -1,5 +1,11 @@
 public class HelloWorld{
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
+        int x = 5;
+        System.out.println("x = " + x);
+        method6(x);
+        System.out.println("x = " + x);
+        /*
         int x = 3;
         if(x == 4)
         {
@@ -17,6 +23,18 @@ public class HelloWorld{
         SlaveHello.method3();
 
         slave4.method3();
+*/
+    }
+
+    public static void method6(int x)
+    {
+        System.out.println("method6.x = " + x);
+        x = x + 1;
+        System.out.println("method6.x = " + x);
+        x = x + 1;
+        System.out.println("method6.x = " + x);
+        x = x + 1;
+        System.out.println("method6.x = " + x);
     }
 
     public static void method1()
@@ -28,4 +46,5 @@ public class HelloWorld{
     {
         System.out.println("Blah Blah!!");
     }
+
 }
