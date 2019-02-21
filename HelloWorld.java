@@ -5,8 +5,7 @@ public class HelloWorld{
         System.out.println("x = " + x);
         method6(x);
         System.out.println("x = " + x);
-        /*
-        int x = 3;
+        
         if(x == 4)
         {
             System.out.println("Hello World!");
@@ -17,13 +16,14 @@ public class HelloWorld{
 
         SlaveHello slave3 = new SlaveHello();
         slave3.method3();
+        
         SlaveHello slave4 = new SlaveHello();
         slave4.method4();
 
         SlaveHello.method3();
 
         slave4.method3();
-*/
+
     }
 
     public static void method6(int x)
